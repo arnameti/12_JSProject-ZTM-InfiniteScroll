@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   font-family: "Bebas Neue", sans-serif;
   background-color: whitesmoke;
+  padding: 0 10px;
 }
 
 h1 {
@@ -37,4 +38,20 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+/* Image Container */
+.img-container {
+  max-width: 700px;
+  margin: 10px auto;
+}
 
+.img-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Mesia Query */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+}
